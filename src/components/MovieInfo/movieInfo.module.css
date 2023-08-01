@@ -1,0 +1,79 @@
+.infoWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 120px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+.moviePosterWrapper{
+    padding: 30px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.43);
+    background-color: #1d1e25;
+    border-radius: 5px;
+}
+.moviePosterWrapper img {
+    borderRadius:'5px';
+}
+
+.movieInfoWrapper{
+    color: lightsteelblue;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.43);
+    background-color: #1d1e25;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-left: 20px;
+}
+.backdropWrapper{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.overView{
+    max-width: 500px;
+}
+.detailInfo{
+    margin: 10px 0 10px 0;
+}
+.detailInfo h3{
+    margin-right: 20px;
+}
+.backButton{
+    font-size: 1.2em;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.79);
+    background-color: cadetblue;
+    color: #d8e5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.starsRating{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.starsRating div{
+    margin-left: 40px;
+    background-color: #4c4f5d;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.favWrapper{
+    text-align: center;
+    width: 250px;
+    margin-top: 30px;
+    background-color: #4c4f5d;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+.favWrapper:hover{
+    background-color: #3c3e4b;
+}

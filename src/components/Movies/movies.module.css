@@ -1,0 +1,80 @@
+.moviesWrapper{
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.globalWrapper{
+    text-align: center;
+}
+.paginationWrapper{
+    color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+}
+.paginationWrapper button{
+    border: none;
+    border-radius: 3px;
+    width: 75px;
+    height: 35px;
+    color: #d8e5f5;
+    background-color: cadetblue;
+}
+.paginationWrapper button:hover{
+    box-shadow: 0px 0px 11px 0px rgba(133, 133, 133, 0.75);
+    color: #ffffff;
+}
+.pageCounter{
+    margin: 0 15px 0 15px;
+}
+.pageSearchWrapper{
+    background-color: #555a6b;
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pageSearchWrapper input {
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.79);
+}
+.pageSearchWrapper button{
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.79);
+    margin-left: 10px;
+    background-color: cadetblue;
+    color: #d8e5f5;
+}
+.errorReport{
+    margin-top: 10px;
+    color: #d8e5f5;
+}
+.searchForm{
+    position: relative;
+    margin-bottom: 15px;
+}
+.pageSearchInput{
+    /*position: absolute;*/
+    /*right: 15%;*/
+}
+.selectGenreInput{
+    /*position: absolute;*/
+    /*left: 15%;*/
+}
+.selectGenreInput select{
+    box-sizing: border-box;
+    padding: 3px 5px 3px 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.79);
+}
